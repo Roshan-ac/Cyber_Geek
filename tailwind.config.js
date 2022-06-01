@@ -1,5 +1,7 @@
 module.exports = {
-    content: ["*.html"],
+    content: ['*',
+        './Pages/**/*{.html,.js}'
+    ],
     theme: {
         extend: {
             keyframes: {
